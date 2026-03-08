@@ -1,7 +1,23 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
 
-public class Principal {
+/**
+ * Clase principal de la aplicación. Demuestra el uso de la jerarquía
+ * de clases del reino animal y el polimorfismo mediante perros y gatos.
+ *
+ * Crea varios objetos, realiza conversiones de tipos y recorre un array
+ * para identificar el tipo concreto de cada elemento.
+ *
+ * @author javiermaltesmartin
+ * @version 1.0
+ */
 
+public class Principal {
+    /**
+     * Punto de entrada de la aplicación. Ejecuta ejemplos de polimorfismo
+     * y uso de la jerarquía Animal-Mamifero-Perro-Gato.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
 
 /*

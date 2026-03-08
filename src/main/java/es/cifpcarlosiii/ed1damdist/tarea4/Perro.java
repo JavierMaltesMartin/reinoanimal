@@ -1,5 +1,13 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
 
+/**
+ * Representa un perro, un tipo de mamífero que añade comportamientos
+ * específicos como ladrar y gruñir.
+ *
+ * @author javiermaltesmartin
+ * @version 1.0
+ */
+
 public class Perro extends Mamifero {
 
     @Override
@@ -14,6 +22,11 @@ public class Perro extends Mamifero {
     void gruñir() {
         System.out.println("Es un sonido ronco y sostenido");
     }
+    /**
+     * Muestra con qué otro animal se relaciona este perro.
+     *
+     * @param p Animal con el que se relaciona el perro.
+     */
 
     @Override
     void relacionar(Animal p) {
