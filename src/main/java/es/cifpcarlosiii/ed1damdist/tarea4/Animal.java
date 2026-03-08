@@ -1,8 +1,8 @@
-package paqAnimales;
+package es.cifpcarlosiii.ed1damdist.tarea4;
 
 public class Animal {
 
-    String nombre;
+    private String nombre;
 
     void comer() {
         System.out.println("Necesita comer diarimente para sobrevivir");
@@ -17,6 +17,14 @@ public class Animal {
     }
 
     void relacionar(Animal a) {
-        System.out.println("Con el animal: " + a.nombre);
+        System.out.println("Con el animal: " + a.getNombre());
+    }
+
+    private String getNombre() {
+        return nombre;
+    }
+
+    private void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }

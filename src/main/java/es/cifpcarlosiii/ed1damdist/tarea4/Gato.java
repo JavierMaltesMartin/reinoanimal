@@ -1,4 +1,4 @@
-package paqAnimales;
+package es.cifpcarlosiii.ed1damdist.tarea4;
 
 public class Gato extends Mamifero {
 
@@ -15,7 +15,7 @@ public class Gato extends Mamifero {
 
     @Override
     void relacionar(Animal p) {
-        System.out.println("Con el gato: " + p.nombre);
+        System.out.println("Con el gato: " + p.getNombre());
     }
 
 }
